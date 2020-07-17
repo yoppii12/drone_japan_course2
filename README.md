@@ -15,10 +15,17 @@ vscodeのターミナル右上の`+`をクリック
 ![ターミナルの画像](https://github.com/yoppii12/drone_japan_course2/blob/master/%E3%82%B3%E3%83%A1%E3%83%B3%E3%83%88%202020-07-18%20015206.jpg)
 
 
-3.
+3. 「利用するファイル」2点を設置いただいたディレクトリに移動
+```
+cd hogehoge
+```
 
-4.
+4. 提出課題の実行
 ```
-sim_vehicle.py -v ArduCopter
+python key_ctrl.py
 ```
+
+上記1-4で提出課題のプログラムが実行されます。
+
+## 
 
