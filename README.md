@@ -1,5 +1,20 @@
 # drone_japan_course2 課題提出
 
+## 提出課題の概要
+- キー入力でドローンを操作する
+- ドローンのテレメトリを取得しターミナル上に表示する
+
+###　表示されるテレメトリの例
+```
+ System status: STANDBY
+ Is Armable?: True
+ Armed: False
+ Mode: LAND
+ Global Location: LocationGlobal:lat=-35.339333,lon=149.1621416,alt=568.36
+ pitch yaw roll: Attitude:pitch=-0.00780999520794,yaw=-0.184492304921,roll=-0.00790476892143
+ valtage current level: Battery:voltage=12.587,current=0.0,level=0
+```
+
 ## 利用するファイル
 上記2点を同一フォルダに格納
 1. key_ctrl.py
@@ -27,5 +42,20 @@ python key_ctrl.py
 
 上記1-4で提出課題のプログラムが実行されます。
 
-## 
+## 操作方法
+キーボードからコマンド入力で操作します。
+1. `g`を入力：guidedモードに切り替え
+2. `a`を入力：armedされる
+3. `t`を入力：離陸する
+
+以降、順不同
+`1`:柏の葉キャンパス交番上空30mへ移動します。
+`2`:三井ガーデンホテル上空50mへ移動します。
+`l`:着陸します。
+`r`:RTHします。
+
+以上
+
+
+
 
